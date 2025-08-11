@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ThankYouPage() {
     return (
       <div className="min-h-screen bg-gradient-to-b from-green-50 to-white flex flex-col items-center justify-center p-4 text-center">
@@ -14,12 +16,12 @@ export default function ThankYouPage() {
               Hemos recibido tu mensaje y nos pondremos en contacto contigo muy pronto.
             </p>
             
-            <a 
+            <Link 
               href="/" 
               className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-lg transition-colors"
             >
               Volver al inicio
-            </a>
+            </Link>
             
             <p className="mt-6 text-sm text-gray-500">
               ¿Necesitas ayuda inmediata? Llámanos al +595 21 729 6900

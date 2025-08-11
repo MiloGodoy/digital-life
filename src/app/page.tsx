@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Technologies from "@/components/Technologies";
 import TechnologyShowcase from "@/components/Technology";
-import Image from "next/image";
 
 export default function Home() {
   return (
